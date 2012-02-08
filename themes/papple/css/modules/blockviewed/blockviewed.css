@@ -1,0 +1,16 @@
+/* Block Viewed Products */
+div#viewed-products_block_left div.block_content ul.products li { 
+	margin: 0px 0px 10px 0px;
+	padding: 4px 0 0 
+}
+div#viewed-products_block_left div.block_content ul.products li p{
+	border-top: 0px none;
+	text-align: left;
+}
+div#viewed-products_block_left div.block_content ul.products li img {
+	margin-right: 7px ;
+	border: 1px solid #FFFFFF;
+}
+div#viewed-products_block_left div.block_content ul.products li p img{
+	border: 0px none;
+}

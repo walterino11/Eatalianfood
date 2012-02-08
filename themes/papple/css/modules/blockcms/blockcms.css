@@ -1,0 +1,23 @@
+#footer .block_various_links { list-style: none; border-bottom: 1px solid #cacaca; padding: 0px 0px 8px 0px; }
+#footer .block_various_links li a { text-decoration: none }
+#footer .block_various_links li a:hover{ text-decoration: underline; }
+#footer .block_various_links li {
+	display: inline;
+	border-left: 1px solid #d3d3d3;
+	padding: 0 4px 0 7px;
+}
+#footer .block_various_links li.first_item {
+	border: none;
+	padding-left: 0
+}
+#footer p{
+	padding: 7px 0px 0px 0px;
+	color: #555;
+	font-size: 12px;
+}
+#footer p a{
+	color: #555;
+}
+
+/* Block CMS links */
+.informations_block_left .block_content { padding-top: 3px }

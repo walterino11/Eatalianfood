@@ -1,0 +1,23 @@
+/* Block specials */
+.blockspecials ul { padding-top: 5px }
+.blockspecials ul li {
+	float: left;
+	clear: none;
+	padding: 0;
+	width: 48%
+}
+.blockspecials ul li span{
+	color: #484848;
+	text-shadow: -1px 0px #d1d1d1;
+	display: block;
+	padding: 1px 0px;
+}
+.blockspecials ul li span.price{
+	color: #eb7e13;
+	text-shadow: none;
+}
+.blockspecials p.product_image { margin-right: 0.3em }
+.blockspecials p {
+	clear: both;
+}
+.blockspecials p a { margin: 0 auto }

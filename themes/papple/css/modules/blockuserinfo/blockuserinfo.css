@@ -1,0 +1,54 @@
+/* block top user information */
+#header_right #header_user {
+	float: left;
+	width: 690px;
+	text-align: left;
+	margin-right: 6px
+}
+#header_user p {
+	color: #555; 
+	font-weight: bold;
+	font-size: 12px;
+}
+#header_user p a,
+#header_user p a:hover{
+	color: #149821;
+	font-size: 18px;
+	text-decoration: none;
+	text-shadow: -1px 0px #149821;
+	font-weight: normal;
+}
+#header_user span { 
+	color: #149821;
+	font-size: 18px;
+	text-shadow: -1px 0px #149821;
+	font-weight: normal; 
+}
+
+#header_nav{
+	clear: both;
+	float: right;
+	text-align: right;
+}
+#header_nav li {
+	display: inline;
+	line-height: 2em;
+	margin-right: 2em;
+	white-space: nowrap;
+	color: #444;
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 26px;
+	float: left;
+}
+#header_nav li#your_account{ background-image: url(../../../img/icon/icon_acc.gif)}
+#header_nav li.link_cart{ background-image: url(../../../img/icon/icon_bag.png)}
+#header_nav li a{
+	text-decoration: none;
+	color: #a1a1a1;
+}
+#header_nav li span{ font-weight: bold;}
+#header_nav li a:hover{
+	color: #149821;
+	text-decoration: underline;
+}

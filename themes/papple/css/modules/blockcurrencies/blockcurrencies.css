@@ -1,0 +1,28 @@
+/* block top currencies */
+#currencies_block_top {
+	margin: 0px 0px 20px 0px;
+	float: right;
+	padding: 5px 0px;
+}
+#currencies_block_top li {
+	margin: 0px;
+	padding: 0px 0px 0px 3px;
+	display: inline;
+	color: #555;
+	font-size: 11px;
+}
+#currencies_block_top a {
+	vertical-align: middle;
+	color: #222;
+	text-shadow: -1px 0px #dcdcdc;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+#currencies_block_top a:hover,
+#currencies_block_top .selected a  {
+	text-decoration: none;
+	color: #309dcf;
+	text-shadow: -1px 0px #cae6f2;
+}
+#currencies_block_top p { clear: left }

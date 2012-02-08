@@ -1,0 +1,15 @@
+/* block myaccount */
+#left_column div.myaccount, #right_column div.myaccount { }
+div.myaccount h4 {}
+div.myaccount h4 a, div.myaccount h4 {}
+div.myaccount, div.myaccount a { color: #313131; }
+div.myaccount a:hover{ color: #309dcf; }
+div.myaccount ul.bullet { margin-top: 0.6em }
+div.myaccount ul.bullet li { background: url(../../../img/icon/li-sub2.gif) no-repeat 2px 10px; padding-left: 15px; color: #313131; font-size: 12px; font-weight: bold; line-height: 20px;}
+div.myaccount ul.bullet .icon { display: none }
+div.myaccount p.logout { padding: 0.3em 0 0.3em 2em }
+div.myaccount p.logout, div.myaccount p.logout a { color: #309DCF;}
+div.myaccount p.logout a { text-decoration: underline }
+div.myaccount p.logout a:hover { text-decoration: none }
+div.myaccount .block_content {}
+.account_input { margin-left: 0; width: 15em }

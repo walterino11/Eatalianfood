@@ -1,0 +1,34 @@
+/* block top links */
+ul#header_links {
+	list-style-type: none;
+	text-align: left;
+	float: right;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+#header_links li {
+	display: inline;
+	line-height:2em;
+	margin-right:0.3em;
+	white-space:nowrap;
+	color: #444;
+	float: left;
+}
+#header_links li strong{color: #030303; float: left; padding: 0px 5px 0px 0px;}
+#header_links a {
+	text-transform: capitalize;
+	text-decoration: none;
+	background-position: left center;
+	background-repeat: no-repeat;
+	float: left;
+	padding: 0px 7px 0px 18px;
+	color: #444;
+}
+#header_links li#log_link a{ background-image: url(../../../img/icon/icon-user.gif);}
+#header_links li#header_link_contact a{ background-image: url(../../../img/icon/icon_contact.png);}
+#header_links li#header_link_sitemap a{ background-image: url(../../../img/icon/icon_sitemap.png);}
+#header_links li#header_link_bookmark a{ background-image: url(../../../img/icon/icon_bookmarks.png);}
+#header_links a:hover{
+	text-decoration: underline;
+	color: #309dcf;
+}

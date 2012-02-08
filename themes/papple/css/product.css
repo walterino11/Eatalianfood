@@ -1,0 +1,158 @@
+
+/* product.tpl */
+#primary_block #pb-right-column {
+	width: 310px;
+	float: left
+}
+#primary_block #image-block {
+	border: #d0d1d5 solid 1px;
+	height: 300px;
+	width: 300px
+}
+#primary_block #image-block img#bigpic { 
+	cursor: pointer; 
+	height: 300px;
+	width: 300px
+}
+#primary_block ul#usefull_link_block {
+	list-style-type: none;
+	margin-top: 1em
+}
+#primary_block ul#usefull_link_block li { margin: 0.5em 1em 0.5em 0; float: left;}
+#primary_block ul#usefull_link_block li a,
+#primary_block ul#usefull_link_block span.span_link,
+#primary_block ul#usefull_link_block span.span_link:hover {
+	text-decoration: none;
+	text-indent: -9999px;
+	height: 23px;
+	width: 22px;
+	display: block;
+	cursor: pointer;
+}
+#primary_block ul#usefull_link_block li a{
+	background: url(../img/icon/print.jpg) no-repeat top left;
+}
+#primary_block ul#usefull_link_block span.span_link,
+#primary_block ul#usefull_link_block span.span_link:hover {
+	background: url(../img/icon/view-full.jpg) no-repeat top left;
+}
+#primary_block #pb-left-column {
+	float:left;
+	margin-left:10px;
+	width:185px;
+}
+#primary_block #short_description_block {
+	background: #f9f9f9;
+	padding: 0.7em;
+	margin-bottom: 1.5em;
+	color: #717171;
+	font-size: 12px;
+}
+#primary_block #color_picker p {
+	margin-bottom: 0.4em;
+	padding: 0
+}
+#primary_block #color_picker {
+	padding: 0.6em 0.7em 0.4em 0.7em;
+	margin-bottom: 1.5em
+}
+#primary_block #color_to_pick_list li {
+	display: inline;
+	float: left;
+	margin: 0 0.4em 0.4em 0
+}
+#primary_block a.color_pick {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #666;
+	cursor: pointer
+}
+#primary_block a.color_pick:hover { border: 1px solid #000 }
+#primary_block a#color_all { cursor: pointer }
+#primary_block #image-block img#bigpic.jqzoom {
+	cursor: crosshair;
+	position: relative
+}
+#primary_block p.buttons_bottom_block { margin: 0 }
+#primary_block p.buttons_bottom_block a,
+ #primary_block p.buttons_bottom_block input { margin: 0.9em 0px 0px 0px; }
+#primary_block #short_description_content { margin-bottom: 0.5em }
+#primary_block #buy_block {
+	padding: 0.7em;
+	margin-bottom: 1.5em
+}
+#primary_block #buy_block p {
+	padding: 0;
+	margin-top: 0;
+	clear: both
+}
+#primary_block #buy_block img.on_sale_img { float: left }
+#primary_block #buy_block span.on_sale {
+	color: #da0f00;
+	text-transform: uppercase;
+	font-weight: bold;
+	float: right
+}
+#primary_block #buy_block span.discount {
+	text-transform: capitalize;
+	font-weight: bold;
+	float: left
+}
+#primary_block #buy_block span.our_price_display { float: left }
+#primary_block #buy_block span#availability_label {
+	float: left;
+	margin-right: 1em
+}
+#primary_block #buy_block label { text-align: left }
+#primary_block #buy_block label,#primary_block #buy_block select {
+	display: block;
+	width: 47%;
+	float: left
+}
+#primary_block div#attributes p, #quantity_wanted_p {
+	clear: left;
+	height: 2em
+}
+#primary_block div#attributes p, #minimal_quantity_wanted_p {
+	clear: left;
+	text-align: center
+}
+
+/* prices */
+#primary_block #buy_block p.price {
+	text-align: left;
+}
+#primary_block #buy_block span#pretaxe_price {
+	text-align: left;
+}
+#primary_block #buy_block p#old_price {
+	text-align: left;
+	text-decoration: line-through
+}
+#primary_block #buy_block p#reduction_percent {
+	color: #EB7E13;
+	text-align: left
+}
+#primary_block #buy_block p.price-ecotax {
+	text-align: left
+}
+#admin-action {
+    color: #374853; 
+    background-color: #DFFAD3; 
+    margin-bottom:10px; 
+    padding: 4px; 
+    border: 1px solid #72CB67
+}
+#admin-action input.exclusive
+{
+	float: right
+}
+
+.product_accessories_price
+{
+	margin-top: 5px
+}
+#more_info_block{
+	margin: 0px -10px;
+}

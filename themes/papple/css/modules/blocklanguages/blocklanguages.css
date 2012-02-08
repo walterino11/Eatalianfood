@@ -1,0 +1,19 @@
+/* block top languages */
+#header_right #languages_block_top {
+	margin: 0px 0px 20px 20px;
+	float: right;
+	padding: 5px 0px;
+}
+#header_right #languages_block_top p { clear: left }
+#languages_block_top {
+}
+#languages_block_top ul#first-languages li {
+	display: inline;
+	margin-right: 3px;
+}
+#languages_block_top ul#first-languages li.selected_language {
+	margin-right: 0.3em
+}
+#languages_block_top ul#first-languages li img{
+	vertical-align: middle;
+}

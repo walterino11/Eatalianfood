@@ -1,0 +1,23 @@
+/* contact-form.tpl */
+body#contact-form div#center_column form input#email,
+ body#contact-form div#center_column form select#id_contact,
+ body#contact-form div#center_column form textarea#message { width: 50% }
+ body#contact-form p{ margin: 0px;}
+ body#contact-form p.bold{ margin: 0px; padding: 15px 0px 10px 0px}
+ body#contact-form form.std fieldset{
+	margin: 0px -11px 10px;
+ }
+ body#contact-form form.std fieldset h3{
+	background:url(../img/bg-top-featured.gif) no-repeat left top;
+	font-size:13px;
+	height:37px;
+	line-height:40px;
+	padding:0 10px;
+	text-transform:capitalize;
+	border-bottom: 0px none;
+	font-weight: bold;
+ }
+form.std p.desc_contact span.like_input {
+	width: 366px;
+	text-align: left
+}
